@@ -1,31 +1,42 @@
-# AI Workflow Doc Assistant
+AI Workflow Portfolio
 
-Portfolio project exploring AI-assisted document review and workflow automation using synthetic sample data.
+Portfolio project exploring AI-assisted workflows, information synthesis, documentation, research, and process improvement using synthetic sample data.
 
-## Purpose
+Purpose
 
-This project explores how AI can support document review workflows through structured prompting, automated feedback generation, and human-in-the-loop validation.
+This repository documents experiments that explore how AI can help transform unstructured information into useful business outputs.
 
-## Project Goal
+The focus is not on AI tools alone, but on designing practical workflows that combine human judgment with AI assistance to improve efficiency, consistency, and decision-making.
 
-This repository documents experiments, observations, and repeatable workflows related to helping small organizations improve documentation, onboarding, operational processes, and practical AI adoption.
+Project Goals
 
-The objective is to explore lightweight consulting approaches that transform informal knowledge, manual processes, and scattered information into structured, reusable assets that improve efficiency and consistency.
+This repository serves as a collection of experiments, case studies, prompts, and workflow prototypes related to:
 
-Areas of interest include:
-
+* Information synthesis
 * Process documentation
 * Standard operating procedures (SOPs)
-* Onboarding materials
+* Onboarding and training materials
 * Knowledge capture
-* AI-assisted workflows
-* Training and enablement
 * Workflow analysis and improvement
-  
-## Status
+* Market and career research
+* AI-assisted recommendations
+* Business process modernization
 
-Early-stage portfolio project.
+Approach
 
-## Data Policy
+Most projects follow a similar pattern:
 
-This repository uses only synthetic and sample data. No employer, customer, confidential, or proprietary information is included.
+1. Start with incomplete, unstructured, or messy inputs.
+2. Apply a repeatable AI-assisted workflow.
+3. Generate structured outputs, recommendations, documentation, or next actions.
+4. Review and refine results through human validation.
+
+Current Status
+
+Early-stage portfolio project focused on building and documenting practical workflow examples.
+
+Data Policy
+
+This repository uses only synthetic, fictional, or appropriately anonymized sample data.
+
+No employer, customer, confidential, proprietary, or personally identifiable information is included.
