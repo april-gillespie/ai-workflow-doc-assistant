@@ -83,6 +83,8 @@ Skills Demonstrated
 * AI-assisted content generation
 * Process documentation
 * Human-AI collaboration
+* Workflow analysis
+* Decision support
 
 Future Opportunities
 
