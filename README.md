@@ -1,6 +1,10 @@
 # AI Workflow Portfolio
 
-A portfolio of practical AI-assisted workflow experiments focused on turning messy, incomplete, or repetitive information into structured business outputs.
+A personal portfolio of practical AI-assisted workflow experiments focused on turning messy, incomplete, or repetitive information into structured outputs.
+
+This repository captures personal AI workflows developed from local small business support, personal projects, and informal help provided within my own network. The examples reflect real types of problems I have worked on outside of my employer, with details changed or simplified for safe public sharing.
+
+This repository does not include Siemens work, Siemens customer information, internal materials, proprietary processes, confidential data, or employer-owned content.
 
 This repository is not intended to present AI as a replacement for human judgment. It demonstrates how structured prompts, repeatable processes, and human review can improve documentation quality, information synthesis, workflow consistency, and decision support.
 
@@ -14,8 +18,21 @@ This portfolio is designed to show capability in:
 - Human-in-the-loop review and validation
 - Documentation modernization
 - Small business and operational support workflows
-- Prompt design for practical business use cases
+- Prompt design for practical use cases
 - Translating unstructured context into organized recommendations
+
+## Source of Examples
+
+Examples in this repository may come from:
+
+- Local small business support performed outside of my employer
+- Personal AI workflow experiments
+- Informal help provided to people in my own network
+- My own personal projects and learning exercises
+
+Some examples are based on real problem patterns, but details are changed, simplified, or replaced with sample content before being shared publicly.
+
+Sample documents, datasets, names, companies, and scenarios are fictional or rewritten unless otherwise noted.
 
 ## Included Workflows and Case Studies
 
@@ -53,7 +70,7 @@ Locations:
 Most examples in this repository follow a similar pattern:
 
 1. Start with incomplete, unstructured, inconsistent, or repetitive inputs.
-2. Identify the desired business output.
+2. Identify the desired output.
 3. Apply a structured AI-assisted workflow.
 4. Generate organized documentation, recommendations, summaries, or next actions.
 5. Review the output with human judgment.
@@ -61,30 +78,32 @@ Most examples in this repository follow a similar pattern:
 
 ## Why This Matters
 
-Many business problems are not caused by a lack of information. They are caused by fragmented information, inconsistent processes, unclear documentation, or work that is too repetitive to complete efficiently.
+Many practical problems are not caused by a lack of information. They are caused by fragmented information, inconsistent processes, unclear documentation, or work that is too repetitive to complete efficiently.
 
 This repository explores how AI can support those situations when it is used inside a clear workflow with defined inputs, outputs, review steps, and limitations.
 
 ## Current Status
 
-This is an early-stage portfolio project. The current focus is documenting practical workflow examples before expanding into more technical prototypes, sample datasets, and lightweight automation.
+This is an early-stage portfolio project. The current focus is documenting practical workflow examples before expanding into more technical prototypes, sample materials, and lightweight automation.
 
 Planned improvements include:
 
 - Stronger architecture documentation
 - Expanded workflow diagrams
 - Prompt versioning and evaluation criteria
-- Synthetic sample inputs and outputs
+- Sample inputs and outputs
 - Lightweight Python examples for data cleanup and categorization
 - Clearer before-and-after case study artifacts
 
 ## Data and Confidentiality Policy
 
-This repository uses only synthetic, fictional, public, or appropriately anonymized sample data.
+This repository is personal work created outside of my employer.
 
-No employer, customer, confidential, proprietary, or personally identifiable information is included.
+No Siemens work, Siemens customer information, employer materials, proprietary processes, confidential data, or employer-owned content is included.
 
-Any workflow inspired by real-world experience is generalized and rewritten to avoid disclosing private business information, internal processes, or protected content.
+No customer, employer, proprietary, confidential, or personally identifiable information is included.
+
+When an example is inspired by a real situation, the visible details are changed, simplified, anonymized, or replaced with sample content before being shared publicly.
 
 ## Intended Audience
 
@@ -99,6 +118,6 @@ This repository may be useful for people interested in:
 
 ## Repository Direction
 
-The long-term goal is to build this into a practical portfolio showing how AI can be used to create repeatable business workflows, not just one-off generated content.
+The long-term goal is to build this into a practical portfolio showing how AI can be used to create repeatable personal, small business, and operational workflows, not just one-off generated content.
 
 The emphasis is on structured thinking, workflow design, human validation, and practical usefulness.
