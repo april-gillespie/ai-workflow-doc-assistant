@@ -77,6 +77,23 @@ Confidence: Low to moderate. Estimate is based on selected screenshots, not cont
 Takeaway: The observer's rest appears significantly disrupted. A recovery block or alternate coverage may be appropriate.
 ```
 
+## Workflow Metadata
+
+This section captures implementation context without making the artifact dependent on a specific vendor, model, or version.
+
+| Field | Description |
+| --- | --- |
+| Tool category | Multimodal AI assistant capable of reviewing uploaded images and generating structured text |
+| Model/version | Not specified in the public artifact because model availability and naming change frequently; exact model/version can be tracked privately when needed |
+| Input format | Selected timestamped screenshots from a longer visual recording |
+| Output format | Timeline summary, rough observational estimates, uncertainty note, and practical next action |
+| Prompting approach | Chronological review, observation-versus-interpretation separation, uncertainty language, and practical decision framing |
+| Human review step | Manual check of timestamps, descriptions, privacy, tone, and estimate confidence |
+| Risk controls | No raw screenshots, no identifying details, no clinical claims, no definitive estimates, and no replacement of human judgment |
+| Reuse potential | Applicable to other fragmented visual records where the desired output is a timeline, summary, or decision-support note |
+
+A sanitized prompt pattern for this workflow is documented separately in `prompts/visual_timeline_synthesis_prompt_v1.md`.
+
 ## Practical Value
 
 This workflow turns a vague or subjective statement into a concrete timeline that another person can review quickly.
