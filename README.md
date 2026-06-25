@@ -14,12 +14,14 @@ This portfolio is designed to show capability in:
 
 - AI-assisted workflow design
 - Information synthesis from fragmented inputs
+- Screenshot-based data extraction and structured documentation
 - Process documentation and standard operating procedures
 - Human-in-the-loop review and validation
 - Documentation modernization
 - Small business and operational support workflows
 - Prompt design for practical use cases
 - Translating unstructured context into organized recommendations
+- Evidence-based troubleshooting and decision support
 
 ## Source of Examples
 
@@ -43,6 +45,12 @@ Current examples include:
 A case study showing how multiple resume versions and a small amount of supplemental context can be consolidated into targeted career assets and role recommendations.
 
 Location: `docs/case-studies/resume-transformation-workflow.md`
+
+### AI-Assisted Home Network Diagnostic Case Study
+
+A case study showing how AI-assisted screenshot interpretation and location-based testing can convert a vague household internet complaint into a structured technical diagnosis and cost-aware recommendation.
+
+Location: `docs/case-studies/home-network-diagnostic-ai-assisted.md`
 
 ### Small Business Website Completion Workflow
 
