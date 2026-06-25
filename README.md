@@ -50,11 +50,11 @@ A case study showing how AI-assisted content standardization can help a small bu
 
 Location: `portfolio/small-business-website-completion/README.md`
 
-### Parent/Toddler Sleep Camera Review Workflow
+### Visual Timeline Synthesis for Decision Support
 
-A personal workflow showing how selected screenshots from an overnight camera recording can be converted into a timestamped, non-medical sleep summary for household decision support.
+A use case showing how selected screenshots from a timestamped visual record can be converted into a structured timeline, rough observational estimates, and practical next-step recommendations while preserving human review and clear limitations.
 
-Location: `docs/use-cases/parent-toddler-sleep-camera-review.md`
+Location: `docs/use-cases/visual-timeline-synthesis-decision-support.md`
 
 ### Document Review Prompt Prototype
 
