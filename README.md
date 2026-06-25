@@ -50,6 +50,12 @@ A case study showing how AI-assisted content standardization can help a small bu
 
 Location: `portfolio/small-business-website-completion/README.md`
 
+### Parent/Toddler Sleep Camera Review Workflow
+
+A personal workflow showing how selected screenshots from an overnight camera recording can be converted into a timestamped, non-medical sleep summary for household decision support.
+
+Location: `docs/use-cases/parent-toddler-sleep-camera-review.md`
+
 ### Document Review Prompt Prototype
 
 A structured prompt prototype for reviewing technical or workflow documentation for clarity, completeness, consistency, and usability.
