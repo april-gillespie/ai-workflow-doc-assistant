@@ -54,7 +54,10 @@ Location: `portfolio/small-business-website-completion/README.md`
 
 A use case showing how selected screenshots from a timestamped visual record can be converted into a structured timeline, rough observational estimates, and practical next-step recommendations while preserving human review and clear limitations.
 
-Location: `docs/use-cases/visual-timeline-synthesis-decision-support.md`
+Locations:
+
+- `docs/use-cases/visual-timeline-synthesis-decision-support.md`
+- `prompts/visual_timeline_synthesis_prompt_v1.md`
 
 ### Document Review Prompt Prototype
 
