@@ -1,0 +1,210 @@
+[
+  {
+    "ticket_id": "ENT-001",
+    "category": "access_issue",
+    "priority": "high",
+    "summary": "Internal user cannot access assigned training workspace materials and has a deadline tomorrow morning.",
+    "missing_information": [
+      "Exact permission error text or screenshot",
+      "Training workspace name",
+      "User account identifier",
+      "Required access group or role"
+    ],
+    "recommended_next_action": "Verify the user's workspace membership and assigned access group, then confirm whether the course link requires a different permission role.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Confirm requester authorization and access group before changing permissions.",
+    "privacy_or_sensitivity_flags": [
+      "access_control"
+    ],
+    "routing_recommendation": "Access management or training platform administrator"
+  },
+  {
+    "ticket_id": "ENT-002",
+    "category": "installation_issue",
+    "priority": "medium",
+    "summary": "External enterprise customer reports that the desktop client installs on lab machines but fails to launch before a workshop next week.",
+    "missing_information": [
+      "Operating system and version",
+      "Application version",
+      "Error message or log file",
+      "Whether all five machines fail the same way",
+      "Installer source"
+    ],
+    "recommended_next_action": "Request environment details and launch logs, then route to installation support for reproduction or known-issue matching.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Validate whether the issue is environmental, installer-related, or product-related before escalation.",
+    "privacy_or_sensitivity_flags": [
+      "customer_impact"
+    ],
+    "routing_recommendation": "Installation support"
+  },
+  {
+    "ticket_id": "ENT-003",
+    "category": "documentation_confusion",
+    "priority": "medium",
+    "summary": "Internal user cannot match quick start guide instructions to the menu options visible in their account.",
+    "missing_information": [
+      "Guide version or URL",
+      "User role or permission level",
+      "Screenshot of visible menu options",
+      "Account environment or workspace type"
+    ],
+    "recommended_next_action": "Ask for the guide link and screenshot, then compare the documented steps against the user's role and current UI.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Confirm whether the issue is documentation drift, permissions, or environment mismatch.",
+    "privacy_or_sensitivity_flags": [
+      "no_sensitive_flags_identified"
+    ],
+    "routing_recommendation": "Documentation owner or product support"
+  },
+  {
+    "ticket_id": "ENT-004",
+    "category": "bug_report",
+    "priority": "high",
+    "summary": "External enterprise customer reports report export failure for reports over 200 rows after the latest update, blocking a weekly operations review.",
+    "missing_information": [
+      "Application version before and after update",
+      "Exact error message",
+      "Export format",
+      "Sample report characteristics",
+      "Whether other users are affected"
+    ],
+    "recommended_next_action": "Collect version, error, and reproduction details, then route to product support for defect triage.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Validate reproduction details and determine whether escalation to engineering is appropriate.",
+    "privacy_or_sensitivity_flags": [
+      "customer_impact"
+    ],
+    "routing_recommendation": "Product support or defect triage team"
+  },
+  {
+    "ticket_id": "ENT-005",
+    "category": "training_request",
+    "priority": "low",
+    "summary": "Trial user is asking for beginner training to understand the basic workflow before deciding whether to continue with the trial.",
+    "missing_information": [
+      "User's experience level",
+      "Specific workflow they are trying to learn",
+      "Preferred format such as video, article, workshop, or guided demo"
+    ],
+    "recommended_next_action": "Send beginner onboarding resources and offer a guided starting path based on the user's goal.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Confirm that the recommended resources match the user's trial scope and product access.",
+    "privacy_or_sensitivity_flags": [
+      "no_sensitive_flags_identified"
+    ],
+    "routing_recommendation": "Training or customer enablement"
+  },
+  {
+    "ticket_id": "ENT-006",
+    "category": "account_admin",
+    "priority": "high",
+    "summary": "Internal admin requests removal of access for a contractor whose project has ended and asks whether active sessions remain.",
+    "missing_information": [
+      "Contractor account identifier",
+      "System or workspace access to remove",
+      "Confirmation of admin authority",
+      "Session management policy"
+    ],
+    "recommended_next_action": "Verify admin authority, identify the contractor account and access scope, then follow the standard offboarding and session revocation process.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Account removal and session revocation require authorization and auditability.",
+    "privacy_or_sensitivity_flags": [
+      "account_removal",
+      "access_control",
+      "security_review"
+    ],
+    "routing_recommendation": "Account administration or security operations"
+  },
+  {
+    "ticket_id": "ENT-007",
+    "category": "customer_escalation",
+    "priority": "urgent",
+    "summary": "External enterprise customer reports multiple users cannot access a shared dashboard before a customer review in two hours.",
+    "missing_information": [
+      "Number of affected users",
+      "Dashboard URL or identifier",
+      "Error message or screenshot",
+      "Whether any users can still access it",
+      "Recent changes to permissions or service status"
+    ],
+    "recommended_next_action": "Escalate immediately to support ownership, check service status and permissions, and provide the customer with an initial acknowledgement and next update time.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Urgent customer-impacting issue requires human escalation, ownership, and communication management.",
+    "privacy_or_sensitivity_flags": [
+      "customer_impact",
+      "production_impact"
+    ],
+    "routing_recommendation": "Customer support escalation owner"
+  },
+  {
+    "ticket_id": "ENT-008",
+    "category": "feature_request",
+    "priority": "low",
+    "summary": "Internal user requests that the export screen remember previous filter settings to reduce repetitive weekly report setup.",
+    "missing_information": [
+      "Specific export screen or module",
+      "Filter fields that should persist",
+      "Frequency and number of affected users",
+      "Whether this behavior should be user-specific or global"
+    ],
+    "recommended_next_action": "Capture the request as a product enhancement idea and ask for workflow details to support prioritization.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Review for product fit, duplicate requests, and prioritization context.",
+    "privacy_or_sensitivity_flags": [
+      "no_sensitive_flags_identified"
+    ],
+    "routing_recommendation": "Product management or enhancement backlog"
+  },
+  {
+    "ticket_id": "ENT-009",
+    "category": "data_privacy_question",
+    "priority": "high",
+    "summary": "External enterprise customer asks about uploaded file retention timing and whether uploaded files are used for model training.",
+    "missing_information": [
+      "Product or service in scope",
+      "Customer contract or data processing terms",
+      "Applicable retention policy",
+      "Approved security or privacy response language"
+    ],
+    "recommended_next_action": "Route to the approved privacy or security response owner and avoid answering until policy language is confirmed.",
+    "confidence": "high",
+    "requires_human_review": true,
+    "human_review_reason": "Privacy and data retention questions require policy-accurate review before responding.",
+    "privacy_or_sensitivity_flags": [
+      "data_retention",
+      "security_review"
+    ],
+    "routing_recommendation": "Privacy, security, or compliance owner"
+  },
+  {
+    "ticket_id": "ENT-010",
+    "category": "unclear_request",
+    "priority": "medium",
+    "summary": "Internal user reports that something failed after following instructions, but the request does not include enough detail to identify the system, task, or error.",
+    "missing_information": [
+      "What system or workflow they were using",
+      "Which instructions they followed",
+      "What step failed",
+      "Exact error message or screenshot",
+      "Expected result",
+      "Actual result"
+    ],
+    "recommended_next_action": "Ask clarifying questions before routing the ticket.",
+    "confidence": "low",
+    "requires_human_review": true,
+    "human_review_reason": "The request is too ambiguous to route confidently without additional information.",
+    "privacy_or_sensitivity_flags": [
+      "ambiguous_request"
+    ],
+    "routing_recommendation": "Intake coordinator or general support triage"
+  }
+]
