@@ -6,47 +6,46 @@ AI Workflow Portfolio: Human-Reviewed Decision Support and Workflow Modernizatio
 
 ## Short Project Description
 
-A public portfolio of AI-assisted workflow design examples showing how messy inputs such as notes, screenshots, documents, observations, and repetitive content tasks can be converted into structured, human-reviewed outputs.
+A public portfolio of AI-assisted workflow design examples showing how messy inputs such as screenshots, notes, observations, documents, and repetitive content tasks can be converted into structured, human-reviewed outputs.
 
-The project focuses on practical AI workflows: prompt design, reusable process patterns, documentation, uncertainty handling, privacy-aware public artifacts, and human-in-the-loop validation.
+The project focuses on practical AI workflows: reusable process patterns, prompt design, documentation, uncertainty handling, privacy-aware public artifacts, and human-in-the-loop validation.
 
 ## LinkedIn-Safe Summary
 
 I started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is practical: turning messy inputs like notes, screenshots, documents, and observations into structured outputs that support human decisions. Current examples include document review, visual timeline synthesis, home network diagnostics, resume transformation, and repeatable prompt patterns.
+The focus is practical: turning messy inputs like screenshots, notes, observations, and documents into structured outputs that support human decisions. Current examples include visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
 
-The portfolio is intentionally sanitized for public sharing. It does not include employer-owned work, proprietary materials, customer data, confidential information, private screenshots, or identifying source materials. The public artifacts document the workflow patterns, not the private source content.
+The portfolio is sanitized for public sharing. The public artifacts document workflow patterns, not private source materials.
 
 ## Skills Demonstrated
 
 - AI-assisted workflow design
 - Human-in-the-loop review
-- Prompt design and reusable prompt patterns
 - Multimodal analysis using visual evidence
 - Decision-support documentation
 - Information synthesis from fragmented inputs
 - Uncertainty handling and limitation-setting
 - Workflow modernization
 - Technical communication
+- Prompt design and reusable prompt patterns
 - Practical evaluation through repeated workflow runs
 
 ## Suggested LinkedIn Post
 
 I have started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is not on one-off AI-generated content. It is on repeatable workflows: taking messy inputs like notes, screenshots, documents, observations, and repetitive content tasks, then converting them into structured outputs that support human decisions.
+The focus is not on one-off AI-generated content. It is on repeatable workflows: taking messy inputs like screenshots, notes, observations, documents, and repetitive content tasks, then converting them into structured outputs that support human decisions.
 
 Current examples include:
 
-- Document review workflows
 - Visual timeline synthesis
 - Home network diagnostics
 - Resume transformation
 - Small-business content completion
 - Reusable prompt patterns
 
-The portfolio is intentionally sanitized for public sharing and does not include employer-owned work, proprietary materials, customer data, confidential information, or private source materials.
+The portfolio is sanitized for public sharing and documents workflow patterns rather than private source materials.
 
 I am using this as a practical way to document how AI can support workflow modernization, technical communication, human-in-the-loop review, and decision-support systems.
 
@@ -54,11 +53,11 @@ I am using this as a practical way to document how AI can support workflow moder
 
 I started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is practical: turning messy inputs like notes, screenshots, documents, and observations into structured outputs that support human decisions.
+The focus is practical: turning messy inputs like screenshots, notes, observations, and documents into structured outputs that support human decisions.
 
-Current examples include document review, visual timeline synthesis, home network diagnostics, resume transformation, and repeatable prompt patterns.
+Current examples include visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
 
-The portfolio is sanitized for public sharing and documents the workflow patterns, not private source material.
+The portfolio is sanitized for public sharing and documents workflow patterns rather than private source materials.
 
 ## Resume / Profile Bullet
 
