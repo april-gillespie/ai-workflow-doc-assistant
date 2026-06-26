@@ -31,7 +31,7 @@ This repository may be useful for people interested in:
 
 ## Current Status
 
-This is an early-stage portfolio project. The current focus is documenting practical workflow examples before expanding into more technical prototypes, sample materials, and lightweight automation.
+This portfolio is actively growing. The current focus is documenting practical workflow examples before expanding into more technical prototypes, sample materials, and lightweight automation.
 
 Planned improvements include:
 
