@@ -1,0 +1,92 @@
+[
+  {
+    "ticket_id": "ENT-001",
+    "submitted_at": "2026-06-26T08:15:00-05:00",
+    "channel": "web_form",
+    "requester_type": "internal_user",
+    "account_type": "standard",
+    "product_area": "access_management",
+    "raw_request": "I was added to the new training workspace yesterday, but I still cannot open the course materials. I get a permission error when I click the link. My manager said I need access before tomorrow morning."
+  },
+  {
+    "ticket_id": "ENT-002",
+    "submitted_at": "2026-06-26T08:42:00-05:00",
+    "channel": "email",
+    "requester_type": "external_customer",
+    "account_type": "enterprise",
+    "product_area": "installation",
+    "raw_request": "We are trying to install the desktop client on five lab machines. The installer completes, but the application fails to launch. We need this ready for a workshop next week."
+  },
+  {
+    "ticket_id": "ENT-003",
+    "submitted_at": "2026-06-26T09:03:00-05:00",
+    "channel": "chat",
+    "requester_type": "internal_user",
+    "account_type": "standard",
+    "product_area": "documentation",
+    "raw_request": "The quick start guide says to use the admin dashboard, but I do not see the same menu options in my account. Am I in the wrong place or is the guide outdated?"
+  },
+  {
+    "ticket_id": "ENT-004",
+    "submitted_at": "2026-06-26T09:18:00-05:00",
+    "channel": "ticket_portal",
+    "requester_type": "external_customer",
+    "account_type": "enterprise",
+    "product_area": "bug_report",
+    "raw_request": "After the latest update, exporting a report with more than 200 rows fails with an unknown error. Smaller reports still export. This is blocking our weekly operations review."
+  },
+  {
+    "ticket_id": "ENT-005",
+    "submitted_at": "2026-06-26T09:50:00-05:00",
+    "channel": "web_form",
+    "requester_type": "external_customer",
+    "account_type": "trial",
+    "product_area": "training",
+    "raw_request": "Do you have any beginner training for new users? I am trying to understand the basic workflow before deciding whether to continue with the trial."
+  },
+  {
+    "ticket_id": "ENT-006",
+    "submitted_at": "2026-06-26T10:12:00-05:00",
+    "channel": "email",
+    "requester_type": "internal_admin",
+    "account_type": "enterprise",
+    "product_area": "account_admin",
+    "raw_request": "Please remove access for a contractor whose project ended last Friday. I do not know whether they still have active sessions."
+  },
+  {
+    "ticket_id": "ENT-007",
+    "submitted_at": "2026-06-26T10:31:00-05:00",
+    "channel": "ticket_portal",
+    "requester_type": "external_customer",
+    "account_type": "enterprise",
+    "product_area": "customer_escalation",
+    "raw_request": "Our production team cannot access the shared dashboard this morning. Multiple users are affected. We have a customer review in two hours and need an immediate update."
+  },
+  {
+    "ticket_id": "ENT-008",
+    "submitted_at": "2026-06-26T10:44:00-05:00",
+    "channel": "chat",
+    "requester_type": "internal_user",
+    "account_type": "standard",
+    "product_area": "feature_request",
+    "raw_request": "It would be helpful if the export screen remembered my last filter settings. I have to set the same filters every time I download a weekly report."
+  },
+  {
+    "ticket_id": "ENT-009",
+    "submitted_at": "2026-06-26T11:07:00-05:00",
+    "channel": "email",
+    "requester_type": "external_customer",
+    "account_type": "enterprise",
+    "product_area": "data_privacy",
+    "raw_request": "Can you confirm whether uploaded files are stored after processing? Our security team needs to know retention timing and whether files are used for model training."
+  },
+  {
+    "ticket_id": "ENT-010",
+    "submitted_at": "2026-06-26T11:26:00-05:00",
+    "channel": "web_form",
+    "requester_type": "internal_user",
+    "account_type": "standard",
+    "product_area": "general_support",
+    "raw_request": "Something is not working right. I tried the thing from the instructions but it failed. Please help."
+  }
+]
