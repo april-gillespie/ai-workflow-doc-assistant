@@ -6,22 +6,26 @@ AI Workflow Portfolio: Human-Reviewed Decision Support and Workflow Modernizatio
 
 ## Short Project Description
 
-A public portfolio of AI-assisted workflow design examples showing how messy inputs such as screenshots, notes, observations, documents, and repetitive content tasks can be converted into structured, human-reviewed outputs.
+A public portfolio of AI-assisted workflow design examples showing how messy inputs such as enterprise intake requests, screenshots, notes, observations, documents, and repetitive content tasks can be converted into structured, human-reviewed outputs.
 
-The project focuses on practical AI workflows: reusable process patterns, prompt design, documentation, uncertainty handling, privacy-aware public artifacts, and human-in-the-loop validation.
+The project focuses on practical AI workflows: reusable process patterns, prompt design, documentation, architecture thinking, uncertainty handling, privacy-aware public artifacts, and human-in-the-loop validation.
 
 ## LinkedIn-Safe Summary
 
 I started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is practical: turning messy inputs like screenshots, notes, observations, and documents into structured outputs that support human decisions. Current examples include visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
+The focus is practical: turning messy inputs like enterprise intake requests, screenshots, notes, observations, and documents into structured outputs that support human decisions. Current examples include enterprise AI intake and triage, visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
 
 The portfolio is sanitized for public sharing. The public artifacts document workflow patterns, not private source materials.
 
 ## Skills Demonstrated
 
 - AI-assisted workflow design
+- Enterprise-style intake and triage workflow design
 - Human-in-the-loop review
+- Architecture documentation
+- Structured extraction from unstructured requests
+- Routing, prioritization, and review-queue thinking
 - Multimodal analysis using visual evidence
 - Decision-support documentation
 - Information synthesis from fragmented inputs
@@ -35,10 +39,11 @@ The portfolio is sanitized for public sharing. The public artifacts document wor
 
 I have started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is not on one-off AI-generated content. It is on repeatable workflows: taking messy inputs like screenshots, notes, observations, documents, and repetitive content tasks, then converting them into structured outputs that support human decisions.
+The focus is not on one-off AI-generated content. It is on repeatable workflows: taking messy inputs like enterprise intake requests, screenshots, notes, observations, documents, and repetitive content tasks, then converting them into structured outputs that support human decisions.
 
 Current examples include:
 
+- Enterprise AI intake and triage
 - Visual timeline synthesis
 - Home network diagnostics
 - Resume transformation
@@ -47,21 +52,21 @@ Current examples include:
 
 The portfolio is sanitized for public sharing and documents workflow patterns rather than private source materials.
 
-I am using this as a practical way to document how AI can support workflow modernization, technical communication, human-in-the-loop review, and decision-support systems.
+I am using this as a practical way to document how AI can support workflow modernization, technical communication, human-in-the-loop review, enterprise intake processes, and decision-support systems.
 
 ## Shorter LinkedIn Post Option
 
 I started building a public portfolio of AI-assisted workflow design examples.
 
-The focus is practical: turning messy inputs like screenshots, notes, observations, and documents into structured outputs that support human decisions.
+The focus is practical: turning messy inputs like enterprise intake requests, screenshots, notes, observations, and documents into structured outputs that support human decisions.
 
-Current examples include visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
+Current examples include enterprise AI intake and triage, visual timeline synthesis, home network diagnostics, resume transformation, small-business content completion, and reusable prompt patterns.
 
 The portfolio is sanitized for public sharing and documents workflow patterns rather than private source materials.
 
 ## Resume / Profile Bullet
 
-Designed and documented AI-assisted workflows that convert fragmented inputs into structured, human-reviewed decision-support artifacts, including prompt patterns, case studies, sample outputs, privacy controls, and iterative feedback loops for practical workflow evaluation.
+Designed and documented AI-assisted workflows that convert fragmented inputs into structured, human-reviewed decision-support artifacts, including enterprise intake and triage patterns, prompt design, architecture notes, sample data, privacy controls, and iterative feedback loops for practical workflow evaluation.
 
 ## Positioning Notes
 
