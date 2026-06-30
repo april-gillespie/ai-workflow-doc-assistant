@@ -47,7 +47,15 @@ Planned improvements include:
 
 These are the best starting points for a quick portfolio review.
 
-### 1. Enterprise AI Intake and Triage Workflow
+### 1. Expert-Governed AI Tool Evaluation
+
+A sanitized case study showing how a controlled workflow can support evaluation of an AI-powered tool by generating first-pass QA reviewer comments while preserving completed review work, workbook controls, and final expert judgment.
+
+This is the strongest AI evaluation example because it shows expert-governed QA, scoped automation, review integrity, controlled workbook updates, and validation against unintended changes.
+
+- [Expert-governed AI tool evaluation case study](docs/case-studies/expert-governed-ai-tool-evaluation.md)
+
+### 2. Enterprise AI Intake and Triage Workflow
 
 A documentation-first enterprise workflow showing how messy support or operations requests can be converted into structured, human-reviewed triage records.
 
@@ -59,7 +67,7 @@ This is the strongest enterprise-style example because it shows intake logic, st
 - [Reusable triage prompt](prompts/enterprise_triage_prompt_v1.md)
 - [Sample triage results](sample_outputs/enterprise_triage_results_v1.json)
 
-### 2. Visual Timeline Synthesis for Decision Support
+### 3. Visual Timeline Synthesis for Decision Support
 
 A workflow for converting selected screenshots from a timestamped visual record into a structured timeline, rough observational estimates, uncertainty notes, and practical next-step recommendations.
 
@@ -69,7 +77,7 @@ This is the strongest multimodal example because it shows a full workflow patter
 - [Part 2: Pattern validation through iterative runs](docs/use-cases/visual-timeline-synthesis-pattern-validation.md)
 - [Reusable prompt pattern](prompts/visual_timeline_synthesis_prompt_v1.md)
 
-### 3. AI-Assisted Home Network Diagnostic Case Study
+### 4. AI-Assisted Home Network Diagnostic Case Study
 
 A case study showing how screenshots and location-based testing can turn a vague household internet complaint into a structured technical diagnosis and cost-aware recommendation.
 
@@ -77,7 +85,7 @@ This demonstrates evidence-based troubleshooting, structured observation, techni
 
 - [Home network diagnostic case study](docs/case-studies/home-network-diagnostic-ai-assisted.md)
 
-### 4. AI-Assisted Resume Transformation Workflow
+### 5. AI-Assisted Resume Transformation Workflow
 
 A case study showing how multiple resume versions and a small amount of supplemental context can be consolidated into targeted career assets and role recommendations.
 
@@ -85,7 +93,7 @@ This demonstrates information synthesis, audience-aware rewriting, structured de
 
 - [Resume transformation case study](docs/case-studies/resume-transformation-workflow.md)
 
-### 5. Small Business Website Completion Workflow
+### 6. Small Business Website Completion Workflow
 
 A case study showing how AI-assisted content standardization can help a small business owner complete repetitive website work while preserving brand voice and presentation style.
 
@@ -93,7 +101,7 @@ This demonstrates workflow modernization, content standardization, and practical
 
 - [Small business website completion workflow](portfolio/small-business-website-completion/README.md)
 
-### 6. Supporting Prompt Prototype: Documentation Quality Review
+### 7. Supporting Prompt Prototype: Documentation Quality Review
 
 A reusable prompt prototype for checking documentation for clarity, completeness, consistency, and usability.
 
@@ -108,6 +116,9 @@ This portfolio is designed to show practical AI workflow design, especially for 
 
 Key demonstrated skills include:
 
+- Expert-governed AI tool evaluation
+- AI evaluation QA workflow design
+- Controlled automation in structured review artifacts
 - AI-assisted workflow design
 - Human-in-the-loop review and validation
 - Prompt design for practical workflows
