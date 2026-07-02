@@ -67,7 +67,15 @@ This is the strongest enterprise-style example because it shows intake logic, st
 - [Reusable triage prompt](prompts/enterprise_triage_prompt_v1.md)
 - [Sample triage results](sample_outputs/enterprise_triage_results_v1.json)
 
-### 3. Visual Timeline Synthesis for Decision Support
+### 3. Voice-to-Agent Inbox Cleanup Workflow
+
+A case study showing how an external AI voice-capture tool can act as the intake layer for a task-specific AI assistant connected to a real application.
+
+This demonstrates external AI tool integration, voice-to-action workflow design, specialized AI handoff, connected application use, reversible boundaries, and completion reporting.
+
+- [Voice-to-agent inbox cleanup case study](docs/case-studies/voice-to-agent-inbox-cleanup-workflow.md)
+
+### 4. Visual Timeline Synthesis for Decision Support
 
 A workflow for converting selected screenshots from a timestamped visual record into a structured timeline, rough observational estimates, uncertainty notes, and practical next-step recommendations.
 
@@ -77,7 +85,7 @@ This is the strongest multimodal example because it shows a full workflow patter
 - [Part 2: Pattern validation through iterative runs](docs/use-cases/visual-timeline-synthesis-pattern-validation.md)
 - [Reusable prompt pattern](prompts/visual_timeline_synthesis_prompt_v1.md)
 
-### 4. AI-Assisted Home Network Diagnostic Case Study
+### 5. AI-Assisted Home Network Diagnostic Case Study
 
 A case study showing how screenshots and location-based testing can turn a vague household internet complaint into a structured technical diagnosis and cost-aware recommendation.
 
@@ -85,7 +93,7 @@ This demonstrates evidence-based troubleshooting, structured observation, techni
 
 - [Home network diagnostic case study](docs/case-studies/home-network-diagnostic-ai-assisted.md)
 
-### 5. AI-Assisted Resume Transformation Workflow
+### 6. AI-Assisted Resume Transformation Workflow
 
 A case study showing how multiple resume versions and a small amount of supplemental context can be consolidated into targeted career assets and role recommendations.
 
@@ -93,7 +101,7 @@ This demonstrates information synthesis, audience-aware rewriting, structured de
 
 - [Resume transformation case study](docs/case-studies/resume-transformation-workflow.md)
 
-### 6. Small Business Website Completion Workflow
+### 7. Small Business Website Completion Workflow
 
 A case study showing how AI-assisted content standardization can help a small business owner complete repetitive website work while preserving brand voice and presentation style.
 
@@ -101,7 +109,7 @@ This demonstrates workflow modernization, content standardization, and practical
 
 - [Small business website completion workflow](portfolio/small-business-website-completion/README.md)
 
-### 7. Supporting Prompt Prototype: Documentation Quality Review
+### 8. Supporting Prompt Prototype: Documentation Quality Review
 
 A reusable prompt prototype for checking documentation for clarity, completeness, consistency, and usability.
 
@@ -121,6 +129,10 @@ Key demonstrated skills include:
 - Controlled automation in structured review artifacts
 - AI-assisted workflow design
 - Human-in-the-loop review and validation
+- External AI tool integration as a workflow intake layer
+- Voice-to-action workflow design
+- Specialized AI assistant handoff based on task type
+- Connected application workflow design
 - Prompt design for practical workflows
 - Enterprise-style intake and triage workflow design
 - Structured extraction from unstructured requests
@@ -144,11 +156,12 @@ Most examples in this repository follow a similar pattern:
 1. Start with incomplete, unstructured, inconsistent, visual, or repetitive inputs.
 2. Define the desired output and decision context.
 3. Apply a structured AI-assisted workflow.
-4. Generate organized documentation, recommendations, summaries, or next actions.
-5. Review the output with human judgment.
-6. Identify uncertainty, limitations, and privacy concerns.
-7. Refine the process so it can be repeated more consistently.
-8. Compare outputs over time when repeated runs are available.
+4. Route the task to the appropriate specialized assistant, prompt pattern, or connected system when needed.
+5. Generate organized documentation, recommendations, summaries, or next actions.
+6. Review the output with human judgment.
+7. Identify uncertainty, limitations, and privacy concerns.
+8. Refine the process so it can be repeated more consistently.
+9. Compare outputs over time when repeated runs are available.
 
 ## Repository Map
 
