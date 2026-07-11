@@ -12,13 +12,13 @@
 
 ## Summary
 
-This case study documents a generic enterprise-style workflow for using AI to support intake triage.
+This case study documents a sanitized enterprise-style workflow concept informed by recurring patterns encountered in technical operations.
 
 The workflow starts with messy support or operations requests and converts them into structured triage records. Each record includes a summary, category, priority, missing information, recommended next action, confidence level, privacy or sensitivity flags, and whether human review is required.
 
 The goal is not to automate support ownership or replace human judgment. The goal is to show how AI can reduce ambiguity, improve intake quality, and help teams route work more consistently when requests arrive in inconsistent formats.
 
-This is a sanitized portfolio project. It is not based on employer systems, employer data, customer data, proprietary workflows, or confidential materials.
+This public implementation uses fictional data and generalized architecture. It does not reproduce employer systems, customer data, internal materials, proprietary configurations, confidential prompts, or private implementation details.
 
 ## Enterprise Problem
 
