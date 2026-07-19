@@ -2,6 +2,8 @@
 
 Practical AI workflow design for enterprise adoption, evaluation, and human-reviewed operations.
 
+> **Professional portfolio:** [April Gillespie | Technical Enablement, Customer Solutions, Applied AI](https://april-gillespie-ai-portfolio.aprilgillespie.chatgpt.site/)
+
 I design workflows that turn unstructured inputs—such as emails, transcripts, documents, screenshots, observations, and operational requests—into structured, reviewable outputs that fit the way people actually work.
 
 This repository contains sanitized and fictional public artifacts documenting the underlying problem-solving, architecture, evaluation, privacy, and adoption decisions behind those workflows.
