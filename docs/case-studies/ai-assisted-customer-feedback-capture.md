@@ -6,9 +6,9 @@
 
 ## Summary
 
-This case study documents a sanitized reconstruction inspired by a real enterprise workflow challenge: sustaining high-quality customer-feedback capture across email and meeting transcripts without adding repetitive documentation work to engineers.
+This case study presents a generalized workflow pattern for improving customer-feedback capture across email and meeting transcripts while preserving human review.
 
-The public materials use generalized workflows and fictional examples. They contain no employer or customer data, internal materials, proprietary configurations, confidential prompts, or implementation details.
+The public example was documented independently and uses sanitized process descriptions and fictionalized artifacts. It contains no employer or customer data, internal materials, proprietary configurations, confidential prompts, or implementation details.
 
 The core design principle is simple: automation should reduce the burden of creating a record, while a qualified human remains responsible for validating what enters the source of truth.
 
@@ -130,22 +130,18 @@ The workflow uses several safeguards:
 
 These controls reduce privacy risk and prevent unsupported model output from being treated as verified customer information.
 
-## Observed Value
+## Practical Value
 
-The workflow pattern was informed by an implementation that produced a sharp increase in usable feedback capture. In an early week, the team captured more usable feedback than had been collected across roughly the previous six months.
+This workflow pattern is designed to:
 
-The value was not limited to volume:
+- Capture feedback closer to the original conversation
+- Preserve more of the customer's wording and context
+- Make repeated themes easier to identify
+- Shift the reviewer task from drafting a record to validating a proposal
+- Fit more naturally into existing work behavior
+- Support more consistent summaries without exposing unnecessary raw details
 
-- Feedback was captured closer to the original conversation.
-- More of the customer's original wording and context was preserved.
-- Repeated themes and terminology became easier to identify.
-- Engineers moved from authoring records to validating proposed records.
-- The process became easier to sustain because it fit existing work behavior.
-- Leadership regained a more dependable source for recurring summaries and discussion.
-
-A concise way to describe the productivity change is:
-
-> The workflow reduced the engineer's task from creating a structured record from scratch to validating one.
+These are intended workflow benefits, not claims of a controlled production benchmark.
 
 ## Evaluation Approach
 
