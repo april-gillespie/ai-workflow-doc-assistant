@@ -40,7 +40,7 @@ The workbook was updated in a controlled way so the reviewer-comment field could
 
 ## Outcome
 
-The workflow generated and applied 91 first-pass reviewer comments for unfinished evaluation entries while preserving completed reviewer work and existing review controls.
+The workflow generated and applied first-pass reviewer comments to the targeted unfinished evaluation entries while preserving completed reviewer work and existing review controls.
 
 Final expert review remained required. The draft comments reduced repetitive review effort and improved consistency, but they did not replace factual verification, QA judgment, or pass/fail evaluation decisions.
 
