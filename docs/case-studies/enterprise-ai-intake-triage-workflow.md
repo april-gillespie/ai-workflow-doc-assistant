@@ -1,70 +1,52 @@
 # Enterprise AI Intake and Triage Workflow
 
-**Date captured:** June 26, 2026  
-**Category:** Enterprise workflow / AI-assisted decision support  
-**Status:** Documentation-first MVP  
-**Related artifacts:**
-
-- `sample_inputs/enterprise_intake_tickets.json`
-- `prompts/enterprise_triage_prompt_v1.md`
-- `sample_outputs/enterprise_triage_results_v1.json`
-- `docs/architecture/enterprise-ai-triage-architecture.md`
+**Status:** Documentation-first MVP using fictional data  
+**Implementation:** Prompt, sample input, sample output, and architecture documentation  
+**Focus:** Structured intake, routing support, and human review
 
 ## Summary
 
-This case study documents a sanitized enterprise-style workflow concept informed by recurring patterns encountered in technical operations.
+This project explores how inconsistent support or operations requests can be converted into structured triage proposals.
 
-The workflow starts with messy support or operations requests and converts them into structured triage records. Each record includes a summary, category, priority, missing information, recommended next action, confidence level, privacy or sensitivity flags, and whether human review is required.
+Each proposal includes a summary, category, priority, missing information, recommended next action, confidence, sensitivity flags, and a reason for human review. The workflow supports a reviewer; it does not assign ownership, approve access, or make final business decisions.
 
-The goal is not to automate support ownership or replace human judgment. The goal is to show how AI can reduce ambiguity, improve intake quality, and help teams route work more consistently when requests arrive in inconsistent formats.
+## Problem
 
-This public implementation uses fictional data and generalized architecture. It does not reproduce employer systems, customer data, internal materials, proprietary configurations, confidential prompts, or private implementation details.
+Requests often arrive through forms, email, chat, shared inboxes, and informal handoffs. They may be incomplete, inconsistent, or unclear.
 
-## Enterprise Problem
+Before routing a request, a person may need to:
 
-Enterprise teams often receive requests through many channels: forms, email, chat, shared inboxes, ticketing systems, customer portals, or informal handoffs.
+- Determine the category
+- Identify missing details
+- Judge urgency
+- Recommend an owner or next action
+- Detect sensitive content
+- Decide whether escalation is required
 
-Those requests are frequently incomplete, inconsistent, or unclear. A person may need to read the request, determine the category, identify missing details, judge urgency, route it to the correct team, and decide whether escalation is needed.
+The repetitive structure makes AI assistance useful, but the judgment and risk require human review.
 
-That work is repetitive but judgment-heavy. It is a good fit for AI assistance only when the workflow preserves human review, privacy boundaries, and clear limitations.
+## Public Artifacts
 
-## Example Scenario
+- [Fictional intake tickets](../../sample_inputs/enterprise_intake_tickets.json)
+- [Reusable triage prompt](../../prompts/enterprise_triage_prompt_v1.md)
+- [Sample triage results](../../sample_outputs/enterprise_triage_results_v1.json)
+- [Architecture notes](../architecture/enterprise-ai-triage-architecture.md)
 
-A fictional company receives internal and external support requests related to software access, installation, training, documentation, bug reports, and account administration.
+## Workflow
 
-The intake team needs a faster way to convert each request into a structured triage record before assigning the ticket.
+```text
+Request
+  -> intake and basic validation
+  -> AI-assisted structured proposal
+  -> human review queue
+  -> correction and approval
+  -> routing, response draft, or escalation
+  -> audit record
+```
 
-## Workflow Goals
+## Output Schema
 
-The workflow is designed to:
-
-- Convert unstructured requests into structured records
-- Classify request type
-- Estimate priority without overclaiming certainty
-- Identify missing information
-- Recommend a next action
-- Flag privacy or sensitivity concerns
-- Preserve a human review step before routing or response
-- Create an audit-friendly record of the triage result
-
-## Inputs
-
-The input is a collection of fictional intake tickets. Each ticket includes:
-
-- Ticket ID
-- Request channel
-- Requester type
-- Raw request text
-- Submitted timestamp
-- Optional metadata such as product area or account type
-
-Sample data is stored in `sample_inputs/enterprise_intake_tickets.json`.
-
-## AI-Assisted Processing Step
-
-The AI triage step reads the raw request and produces a structured output.
-
-Expected output fields include:
+The proposed record includes:
 
 - `ticket_id`
 - `category`
@@ -78,113 +60,42 @@ Expected output fields include:
 - `privacy_or_sensitivity_flags`
 - `routing_recommendation`
 
-The reusable prompt pattern is stored in `prompts/enterprise_triage_prompt_v1.md`.
+## Human Review
 
-## Human Review Step
+Before operational use, a reviewer confirms:
 
-A human reviewer checks the structured output before it is used for routing, escalation, or response.
-
-The reviewer confirms:
-
-- Whether the category is correct
-- Whether the priority is reasonable
-- Whether missing information was identified
-- Whether the recommended next action is appropriate
-- Whether privacy or sensitivity flags were applied correctly
-- Whether the request needs escalation
-- Whether the output is safe to store or share
-
-## Output
-
-The output is a structured triage result for each ticket. A sample output set is stored in `sample_outputs/enterprise_triage_results_v1.json`.
-
-The output is intended to support a human workflow, not to operate as an autonomous decision system.
-
-## Architecture Concept
-
-The workflow can be represented as:
-
-```text
-Requester
-  -> Intake form / email / chat / ticket portal
-  -> Backend API
-  -> AI triage service
-  -> Structured triage record
-  -> Database
-  -> Human review queue
-  -> Routing / escalation / response draft
-  -> Audit log and reporting
-```
-
-The architecture notes are documented in `docs/architecture/enterprise-ai-triage-architecture.md`.
-
-## Enterprise Concepts Demonstrated
-
-This project demonstrates awareness of enterprise software patterns, including:
-
-- Intake workflows
-- Backend/API boundaries
-- Database-backed records
-- Structured data extraction
-- Ticket routing logic
-- Human review queues
-- Audit trails
-- Role-based review concepts
-- Privacy and sensitivity flags
-- Confidence and uncertainty handling
-- Workflow evaluation criteria
-- Vendor-neutral AI system design
+- Category and priority
+- Missing information
+- Recommended next action
+- Routing recommendation
+- Privacy or sensitivity flags
+- Need for escalation
+- Whether the output is appropriate to store or share
 
 ## Evaluation Criteria
 
-A triage output should be evaluated against practical criteria:
-
-| Criterion | Question |
+| Criterion | Review question |
 | --- | --- |
-| Category accuracy | Did the output classify the request correctly? |
-| Priority reasonableness | Is the urgency appropriate based on the request text? |
-| Missing information | Did the output identify what is needed to move forward? |
-| Routing usefulness | Would the recommended owner/team know what to do next? |
-| Human review fit | Did the workflow flag cases that should not be automated? |
-| Privacy handling | Were sensitive details flagged or protected? |
-| Consistency | Would similar inputs receive similar outputs? |
+| Category accuracy | Is the request classified correctly? |
+| Priority reasonableness | Is the urgency supported by the request? |
+| Missing information | Does the proposal identify what is needed? |
+| Routing usefulness | Would the recommended owner know what to do next? |
+| Human-review fit | Are uncertain or high-risk cases escalated? |
+| Privacy handling | Are sensitive details flagged appropriately? |
+| Consistency | Do similar inputs produce comparable structures? |
 
-## Limitations
+## My Contribution
 
-This workflow does not make final business decisions, approve access, resolve tickets, diagnose production systems, or replace subject matter experts.
+I defined the fictional scenario, workflow boundaries, output schema, review criteria, prompt structure, sample inputs and outputs, and architecture documentation.
 
-The AI output may be wrong, incomplete, or overconfident. Human review is required before any operational action.
+AI tools assisted drafting and artifact generation. I reviewed the structure, limitations, and public materials and retained responsibility for the final design decisions.
 
-The sample data is fictional and simplified. Real enterprise deployment would require stronger security controls, identity management, logging, data retention rules, access controls, compliance review, and integration with existing systems.
+## Implementation Boundaries
 
-## What This Demonstrates
+This is a documentation-first MVP, not a deployed application. It does not currently include a live API, database, review interface, authentication, production monitoring, or system integration.
 
-This case study extends the portfolio beyond personal workflows and into enterprise-style software thinking.
+A real deployment would require identity and access controls, secure retention policies, logging, compliance review, evaluation against labeled examples, and integration with approved systems.
 
-It demonstrates the ability to:
+## Public-Work Boundaries
 
-- Translate a messy operational problem into a structured AI-assisted workflow
-- Define inputs, outputs, review steps, and system boundaries
-- Design for human review rather than full automation
-- Think in terms of APIs, records, routing, auditability, and privacy
-- Create reusable prompt and data artifacts
-- Communicate limitations clearly
-- Build a documentation-first MVP before writing production code
-
-## Future Build Phases
-
-Future versions could add:
-
-1. A Python script that reads sample tickets and writes mock triage results
-2. A FastAPI endpoint for submitting a ticket and returning a structured triage record
-3. A SQLite or PostgreSQL database schema for ticket and review records
-4. A simple human review queue
-5. A Dockerfile for local deployment
-6. GitHub Actions checks for formatting and sample data validation
-7. A lightweight evaluation rubric comparing expected and actual outputs
-
-## Portfolio Positioning
-
-A concise way to describe this project:
-
-> Designed a sanitized enterprise-style AI intake and triage workflow that converts messy support requests into structured, human-reviewed triage records with category, priority, missing information, recommended next action, confidence, routing, and privacy flags. Documented the workflow, sample data, reusable prompt pattern, sample outputs, and architecture notes to demonstrate enterprise software thinking around AI-assisted decision support.
+All visible tickets and outputs are fictional. The project does not reproduce employer systems, customer data, internal materials, proprietary configurations, confidential prompts, or private implementation details.
